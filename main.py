@@ -5,7 +5,7 @@ files = [
     {'ключ1': 'значення3', 'ключ2': 'значення4'},
     {'ключ1': 'значення5', 'ключ2': 'значення6'}
 ]
-with open('data.pkl', 'wb') as file:
+with open('files.pkl', 'wb') as file:
     pickle.dump(files, file)
 #2
 import json
